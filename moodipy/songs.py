@@ -1,4 +1,5 @@
 #A collection of songs with their respective links that user's may receive based on their mood 
+
 BETTER_NOT = 'https://open.spotify.com/track/447yWcDPg1ddgcHBLGpJC0?si=qUJp9gA0S9m1ZLB1YfsrGw'
 PARADISE = 'https://open.spotify.com/track/7njKgVl3AnLflRad38o7AG?si=Qzpu-I6fShqbFDh9k0z9mw'
 BUBBLY = 'https://open.spotify.com/track/4mZ58eYBEHnx6cR41EVAFG?si=dV527Xp4TpqDpP2X6KqHhA'
@@ -19,4 +20,5 @@ BEST_PART = 'https://open.spotify.com/track/4OBZT9EnhYIV17t4pGw7ig?si=fk_nJf9XRF
 EVERY_WAY = 'https://open.spotify.com/track/0Aa3g9EQoPNt6PiKjaUeb7?si=v1EG8ha0StS1aWR9IWZ4HQ'
 
 #List of all the songs together 
+
 SONG_LIST = [BETTER_NOT, PARADISE, BUBBLY, HIGH_HOPES, DANCING_STRANGER, SAY_SOMETHING, LANDSLIDE, SPARROWS, WONT_GIVE_UP, FOUND_LOVE, BROCCOLI, HUMBLE, FLAMINGO, FOX, COCONUT, WAY_YOU_ARE, BEST_PART, EVERY_WAY]

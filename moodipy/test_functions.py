@@ -1,16 +1,6 @@
-"""Test for my functions.
-
-Note: because these are 'empty' functions (return None), here we just test
-  that the functions execute, and return None, as expected.
-"""
-
 import moodipy.functions as moodipy
 import copy
 from moodipy.songs import *
-
-
-##
-##
 
 def test_all():
     test_pick_song()
@@ -41,27 +31,24 @@ def test_check_in_map_lists():
 
 def test_input_with_msg():
     # Generally, input_with_msg will take input from the user, but we just add an argument to simulate user input.
-    assert moodipy.input_with_msg(question='This is a question.', user_input='This is a string.') == ['this', 'is', 'a', 'string']
+    assert moodipy.input_with_msg(question='Question?', user_input='This is a string.') == ['this', 'is', 'a', 'string']
 
-# Test_Function Codes copied from assignment A3 - Chatbots
+### Following test functions are copied from assignment A3 - Chatbots
 def test_remove_punctuation():
     assert callable(moodipy.remove_punctuation)
     assert isinstance(moodipy.remove_punctuation('a'), str)
     assert moodipy.remove_punctuation("Hey! It's Professor Ellis!") == "Hey Its Professor Ellis"
 
-# Test_Function Codes copied from assignment A3 - Chatbots
 def test_prepare_text():
     assert callable(moodipy.prepare_text)
     assert isinstance(moodipy.prepare_text('One two three.'), list)
     assert moodipy.prepare_text('Hi! Also, howdy.') == ['hi', 'also', 'howdy']
     
-# Test_Function Codes copied from assignment A3 - Chatbots
 def test_selector():
     assert callable(moodipy.selector)
     assert moodipy.selector(['in', 'words'], ['words'], ['yes']) == 'yes'
     assert moodipy.selector(['in', 'words'], ['out'], ['yes']) == None
 
-# Test_Function Codes copied from assignment A3 - Chatbots
 def test_end_chat():
     assert callable(moodipy.end_chat)
     assert isinstance(moodipy.end_chat(['a', 'b']), bool)

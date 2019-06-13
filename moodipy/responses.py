@@ -20,4 +20,5 @@ POS_OUT = ['yay!', 'that\'s good!', 'keep it up!', 'great!']
 
 NEG_IN = SAD_WORDS + SCARED_WORDS 
 NEG_OUT = ['it\'s going to be ok', 'i\'m here for you', 'you got this!', 'i\'m sorry']
+
 RANDOM_OUT = ['cool', 'ok', 'interesting']
