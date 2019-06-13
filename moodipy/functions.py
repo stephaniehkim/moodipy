@@ -5,7 +5,6 @@ import string
 from moodipy.songs import *
 
 #dictionary list of moods mapped to the songs 
-
 songs = {
 'happy': [BETTER_NOT, PARADISE, BUBBLY],
 'sad': [HIGH_HOPES, DANCING_STRANGER, SAY_SOMETHING],
@@ -112,8 +111,7 @@ def input_with_msg(question, clarification_q = 'Please put a response :(', user_
             return user_input
     return prepare_text(user_input)
         
-# Following functions are copied from assignment A3 - Chatbots
-
+### Following functions are copied from assignment A3 - Chatbots
 def remove_punctuation(input_string): 
     out_string = ''
     for char in input_string:
